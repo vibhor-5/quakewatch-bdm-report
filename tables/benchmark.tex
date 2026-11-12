@@ -1,0 +1,10 @@
+2011 strong events & compound index & 2,701 & 2,701 & 2,701 & 1\\
+ & collection scan & 0 & 181,600 & 2,701 & 52\\
+Japan strong events & compound index & 3,527 & 3,527 & 3,527 & 1\\
+ & collection scan & 0 & 181,600 & 3,527 & 53\\
+Event id lookup & \texttt{\_id} index & 1 & 1 & 1 & 0\\
+ & collection scan & 0 & 181,600 & 1 & 42\\
+Within 300 km of Tokyo & 2dsphere index & 4,820 & 4,797 & 4,197 & 6\\
+ & collection scan & 0 & 181,600 & 4,197 & 142\\
+Magnitude $\ge6$ & magnitude index & 3,874 & 3,874 & 3,874 & 2\\
+ & collection scan & 0 & 181,600 & 3,874 & 46\\
