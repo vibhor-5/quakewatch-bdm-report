@@ -1,6 +1,7 @@
 # QuakeWatch – BDM project report
 
 LaTeX source and compiled PDF (`main.pdf`, 27 pages) of the Big Data Management report: 181,600 earthquakes (M4.5+), 2000–2025, 154 countries analysed individually and combined.
+**New here? Read [`EXPLAINER.md`](EXPLAINER.md)**, a plain-language walkthrough of the whole project.
 Code repository: https://github.com/vibhor-5/quakewatch-bdm
 
 Build: `tectonic main.tex` (or any LaTeX distribution: `pdflatex main.tex` twice).
